@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb72b4b-2508-4f9f-9ece-3410b094ad84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/acf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/acf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
     </list>
@@ -16,13 +17,19 @@
       <executable />
     </execution>
   </component>
+  <component name="DrupalConfiguration">
+    <drupalPath />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="acf" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#6#150#0#PHP" expanded="true" />
               </folding>
@@ -42,6 +49,10 @@
         <option value="$PROJECT_DIR$/404.php" />
       </list>
     </option>
+  </component>
+  <component name="JoomlaConfiguration">
+    <joomlaConfigPath />
+    <joomlaPath />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -66,18 +77,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="acf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mu" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="acf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -87,6 +116,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,6 +135,9 @@
       </list>
     </option>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",Show Constants,Show Fields,Show Includes" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -118,7 +151,10 @@
       <workItem from="1574771350502" duration="2860000" />
       <workItem from="1574775854747" duration="129000" />
       <workItem from="1574775984936" duration="352000" />
-      <workItem from="1574776338888" duration="45000" />
+      <workItem from="1574776338888" duration="350000" />
+      <workItem from="1574776691486" duration="1108000" />
+      <workItem from="1574777881241" duration="9000" />
+      <workItem from="1574937041351" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="testing commit">
       <created>1574773293232</created>
@@ -162,19 +198,33 @@
       <option name="project" value="LOCAL" />
       <updated>1574776091776</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testing commit677">
+      <created>1574776467541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574776467541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="testing commit677">
+      <created>1574776552325</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574776552325</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3386000" />
+    <option name="totallyTimeSpent" value="4851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4937833" visible="true" weight="0.27611336" />
+      <window_info id="Structure" order="1" sideWeight="0.5062167" side_tool="true" weight="0.27611336" />
+      <window_info id="Favorites" order="2" sideWeight="0.5026643" side_tool="true" weight="0.26639676" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -247,16 +297,20 @@
     <MESSAGE value="testing commit" />
     <MESSAGE value="testing commit2" />
     <MESSAGE value="testing commit67" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing commit67" />
+    <MESSAGE value="testing commit677" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing commit677" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\Projects\gity\mu</wordpressPath>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="e#6#150#0#PHP" expanded="true" />
           </folding>
