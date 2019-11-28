@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-<!-- testing coommit-->
+<!-- testing coommitt-->
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
