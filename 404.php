@@ -11,8 +11,8 @@ get_header(); ?>
 <!-- testing coommitt-->
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-            <h1><?php  the_field('tester'); ?></h1>
-			<section class="error-404 not-found">
+
+            <section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'twentysixteen' ); ?></h1>
 				</header><!-- .page-header -->
