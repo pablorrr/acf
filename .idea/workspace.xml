@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb72b4b-2508-4f9f-9ece-3410b094ad84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="119">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -202,7 +200,7 @@
       <workItem from="1574776338888" duration="350000" />
       <workItem from="1574776691486" duration="1108000" />
       <workItem from="1574777881241" duration="9000" />
-      <workItem from="1574937041351" duration="2867000" />
+      <workItem from="1574937041351" duration="2939000" />
     </task>
     <task id="LOCAL-00001" summary="testing commit">
       <created>1574773293232</created>
@@ -288,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574939957796</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="testing commit acf header addjkhk">
+      <created>1574941201398</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574941201398</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7675000" />
+    <option name="totallyTimeSpent" value="7747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -377,7 +382,9 @@
     <MESSAGE value="testing commit6" />
     <MESSAGE value="testing commit1" />
     <MESSAGE value="testing commit acf header add" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing commit acf header add" />
+    <MESSAGE value="testing commit acf header addjkhk" />
+    <MESSAGE value="add second filed" />
+    <option name="LAST_COMMIT_MESSAGE" value="add second filed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -426,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="119">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
