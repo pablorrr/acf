@@ -59,6 +59,24 @@ get_header(); ?>
     <!--This example demonstrates how to display a Range field value as text.-->
     <p>This example demonstrates how to display a Range field value as text</p>
     <p>Searching for houses within a <?php the_field('h2_font_size'); ?> km radius.</p>
+
+    <!--  https://www.advancedcustomfields.com/resources/radio-button/ -->
+    <!-- This example demonstrates how to display the selected value. -->
+    <p>Color: <?php the_field('color'); ?></p>
+    <!-- This example demonstrates how to load a selected value and label without using the Format value setting. -->
+    <?php
+    $field = get_field_object('color');
+    $value = $field['value'];
+    $label = $field['choices'][$value]; ?>
+    <p>Color: <span class="color-<?php echo esc_attr($value); ?>"><?php echo esc_html($label); ?></span></p>
+    <?php
+    $color = get_field('color');
+    ?>
+    <p>Color: <span
+                class="color-<?php //echo esc_attr($color['value']); ?>"><?php //echo esc_html($color['label']); ?></span>
+    </p>
+
+
 </div><!-- .content-area -->
 
 <?php get_sidebar(); ?>
