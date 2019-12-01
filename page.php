@@ -44,6 +44,21 @@ get_header(); ?>
     <?php endif; ?>
 	<?php get_sidebar( 'content-bottom' ); ?>
 
+    <!-- https://www.advancedcustomfields.com/resources/range/ -->
+    <?php
+
+    $h2_font_size = get_field('h2_font_size');
+    if ($h2_font_size): ?>
+        <style type="text/css">
+            h2 {
+                font-size: <?php echo $h2_font_size; ?>px;
+            }
+        </style>
+    <?php endif; ?>
+    <h2>test range filed font size</h2>
+    <!--This example demonstrates how to display a Range field value as text.-->
+    <p>This example demonstrates how to display a Range field value as text</p>
+    <p>Searching for houses within a <?php the_field('h2_font_size'); ?> km radius.</p>
 </div><!-- .content-area -->
 
 <?php get_sidebar(); ?>
