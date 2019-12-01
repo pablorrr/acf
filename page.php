@@ -75,6 +75,38 @@ get_header(); ?>
     <p>Color: <span
                 class="color-<?php //echo esc_attr($color['value']); ?>"><?php //echo esc_html($color['label']); ?></span>
     </p>
+    <!-- https://www.advancedcustomfields.com/resources/select/-->
+    <p>Color: <?php the_field('select_color'); ?></p>
+    <?php
+    $colors = get_field('select_color');
+
+    // Create a comma-separated list from selected values.
+    if ($colors): ?>
+        <p>Color: <?php echo implode(', ', $colors); ?></p>
+    <?php endif; ?>
+    <?php
+    /*
+    $field = get_field_object( 'select_color' );
+    $value = $field['value'];
+    $label = $field['choices'][ $value ];*/
+    ?>
+    <p>Color: <span class="color-<?php // echo esc_attr($value); ?>"><?php //echo esc_html($label); ?></span></p>
+
+    <?php
+    $color = get_field('select_color');
+    ?>
+    <p>Color: <span
+                class="color-<?php echo esc_attr($color['value']); ?>"><?php echo esc_html($color['label']); ?></span>
+    </p>
+    <!--https://www.advancedcustomfields.com/resources/true-false/  -->
+
+    <?php
+
+    if (get_field('true_false') === true)
+        echo '<h6>value is yes</h6>';
+    elseif (get_field('true_false') === false)
+        echo '<h6>value is false  </h6>';
+    ?>
 
 
 </div><!-- .content-area -->
