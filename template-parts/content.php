@@ -57,5 +57,14 @@
 				'</span>'
 			);
 			?>
+        <h1><?php the_field('tester1'); ?></h1>
+        <h1><?php the_field('test_2'); ?></h1>
+        <h1><?php the_field('test_2'); ?></h1>
+        <!-- https://www.advancedcustomfields.com/resources/link/-->
+        <?php
+        $link = get_field('url');
+        if( $link ): ?>
+            <a class="button" href="<?php echo esc_url( $link ); ?>">just onet link</a>
+        <?php endif; ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
