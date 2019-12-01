@@ -107,6 +107,10 @@ get_header(); ?>
     elseif (get_field('true_false') === false)
         echo '<h6>value is false  </h6>';
     ?>
+    <!--https://www.advancedcustomfields.com/resources/file/  -->
+    <?php if (get_field('file')): ?>
+        <a href="<?php the_field('file'); ?>">Download File</a>
+    <?php endif; ?>
 
 
 </div><!-- .content-area -->
