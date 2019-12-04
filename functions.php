@@ -573,3 +573,15 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
+
+//acfr google map register key
+//https://www.advancedcustomfields.com/resources/google-map/
+
+// Method 1: Filter.
+function my_acf_google_map_api($api)
+{
+    $api['key'] = 'AIzaSyBJa3F7quH884-DYDBA6lHB12d-PevyA-g';
+    return $api;
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
