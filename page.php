@@ -111,7 +111,8 @@ get_header(); ?>
     <?php if (get_field('file')): ?>
         <a href="<?php the_field('file'); ?>">Download File</a>
     <?php endif; ?>
-
+    <--https://www.advancedcustomfields.com/resources/date-picker/-->
+    <p>Event Date: <?php the_field('date'); ?></p>
 
 </div><!-- .content-area -->
 

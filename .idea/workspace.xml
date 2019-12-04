@@ -12,15 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-              <folding>
-                <element signature="e#2994#3119#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="311">
+              <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -97,7 +94,8 @@
       <workItem from="1575056443924" duration="5000" />
       <workItem from="1575056460043" duration="6000" />
       <workItem from="1575194247103" duration="943000" />
-      <workItem from="1575195202429" duration="5806000" />
+      <workItem from="1575195202429" duration="6709000" />
+      <workItem from="1575462004228" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="testing commit aND PUSH">
       <created>1575195513603</created>
@@ -134,17 +132,31 @@
       <option name="project" value="LOCAL" />
       <updated>1575198882915</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sleect and true false field">
+      <created>1575203503203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575203503203</updated>
+    </task>
+    <task id="LOCAL-00007" summary="file field">
+      <created>1575208192900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575208192900</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7258000" />
+    <option name="totallyTimeSpent" value="8859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18461539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18785425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,7 +188,9 @@
     <MESSAGE value="testing commit aND PUSH" />
     <MESSAGE value="testing commit aND PUSH range field" />
     <MESSAGE value="radio field" />
-    <option name="LAST_COMMIT_MESSAGE" value="radio field" />
+    <MESSAGE value="sleect and true false field" />
+    <MESSAGE value="file field" />
+    <option name="LAST_COMMIT_MESSAGE" value="file field" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -184,11 +198,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#2994#3119#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="311">
+          <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
         </state>
       </provider>
     </entry>
