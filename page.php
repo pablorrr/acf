@@ -285,7 +285,7 @@ get_header(); ?>
     <--https://www.advancedcustomfields.com/resources/date-picker/-->
     <p>Event Date: <?php the_field('date'); ?></p>
 
-    <!--taxonomy  https://www.advancedcustomfields.com/resources/taxonomy/-->
+    <!--taxonomy  https://www.advancedcustomfields.com/resources/taxonomy/khklhkjh-->
 
 
     <?php
