@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="608e6b4e-4707-4cff-9883-768624da8ec3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+            <state relative-caret-position="1025">
+              <caret line="287" column="82" selection-start-line="287" selection-start-column="82" selection-end-line="287" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9503">
+              <caret line="583" column="16" selection-start-line="583" selection-start-column="16" selection-end-line="583" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -31,7 +49,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/single.php" />
       </list>
     </option>
   </component>
@@ -95,7 +115,8 @@
       <workItem from="1575056460043" duration="6000" />
       <workItem from="1575194247103" duration="943000" />
       <workItem from="1575195202429" duration="6709000" />
-      <workItem from="1575462004228" duration="698000" />
+      <workItem from="1575462004228" duration="3469000" />
+      <workItem from="1575540451034" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="testing commit aND PUSH">
       <created>1575195513603</created>
@@ -146,17 +167,38 @@
       <option name="project" value="LOCAL" />
       <updated>1575208192900</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="date field">
+      <created>1575462760265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575462760265</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update gm, post object filed taxonomy">
+      <created>1575465543105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575465543105</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update gm, post object filed taxonomy">
+      <created>1575465570031</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575465570031</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8859000" />
+    <option name="totallyTimeSpent" value="13769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18785425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -190,7 +232,9 @@
     <MESSAGE value="radio field" />
     <MESSAGE value="sleect and true false field" />
     <MESSAGE value="file field" />
-    <option name="LAST_COMMIT_MESSAGE" value="file field" />
+    <MESSAGE value="date field" />
+    <MESSAGE value="update gm, post object filed taxonomy" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gm, post object filed taxonomy" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -198,8 +242,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+        <state relative-caret-position="1025">
+          <caret line="287" column="82" selection-start-line="287" selection-start-column="82" selection-end-line="287" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9503">
+          <caret line="583" column="16" selection-start-line="583" selection-start-column="16" selection-end-line="583" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
         </state>
       </provider>
     </entry>
