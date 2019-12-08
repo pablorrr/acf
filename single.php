@@ -36,7 +36,7 @@
 
 
             <?php endwhile; ?>
-
+            <?php the_field('text_option__header1', 'option'); ?>
         </div><!-- #content -->
     </div><!-- #primary -->
 

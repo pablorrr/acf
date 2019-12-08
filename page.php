@@ -296,7 +296,11 @@ get_header(); ?>
     <?php endif; ?>
 
     <!--https://www.advancedcustomfields.com/resources/post-object/-->
+    <!-- theme option page get value (create optipn page watcj functions.php))-->
     <?php
+
+
+    the_field('text_option_footer_1', 'option');
 
     echo '<pre>';
     print_r(get_field('post_objects'));
