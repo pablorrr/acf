@@ -634,3 +634,130 @@ if (function_exists('acf_add_options_page')) {
     ));
 
 }
+
+//dodoawanie wlasnych wlasciwowsci pol pol(customs fields propertiers)
+//https://www.advancedcustomfields.com/resources/adding-custom-settings-fields/
+// jescze jeszczse jedne przyklad tworzenia  wlasnego pola(wykorzytsaj to )
+
+//definiowanie wlasnej wlasciwosci pola "admin only , jest pole logiczne warunkowe"
+//ustwienie tej wlsaciwosci obowiazuje przy wszytskich polach
+
+add_action('acf/render_field_settings', 'my_admin_only_render_field_settings');
+
+function my_admin_only_render_field_settings($field)
+{
+
+    acf_render_field_setting($field, array(
+        'label' => __('Admin Only?'),
+        'instructions' => 'instructions example',
+        'name' => 'admin_only',
+        'type' => 'true_false',
+        'ui' => 1,
+    ), true);
+
+}
+
+add_filter('acf/prepare_field', 'my_admin_only_prepare_field');
+
+//oblsuga pola - jesli dany user nie jest adminem lub editrem pole nie pokaze sie
+function my_admin_only_prepare_field($field)
+{
+
+    // bail early if no 'admin_only' setting
+    if (empty($field['admin_only'])) return $field;
+
+
+    // return false if is not admin (removes field)
+    if (!current_user_can('administrator')) return false;
+
+
+    // return
+    return $field;
+}
+
+//////////////////
+//wykluczanie pewnych slow z textu jakoo wlasciwosc pola text
+
+//https://www.advancedcustomfields.com/resources/adding-custom-settings-fields/
+//acf/render_field_settings/type=textarea ustwaienie sie pojawi tylko przy polu text
+
+//uwaga do testowania wybierz typ pola obszar tekstowy
+
+//zdefionwanie wlasciwosci  pola
+add_action('acf/render_field_settings/type=textarea', 'my_textarea_render_field_settings');
+
+function my_textarea_render_field_settings($field)
+{
+
+    acf_render_field_setting($field, array(
+        'label' => __('Exclude words'),
+        'instructions' => __('Enter words separated by a comma'),
+        'name' => 'exclude_words',
+        'type' => 'text',
+    ));
+
+}
+
+//obsluga (handle pola)- mechanizm dzilanaia pola
+
+add_filter('acf/validate_value/type=textarea', 'my_textarea_validate_value', 10, 4);
+
+function my_textarea_validate_value($valid, $value, $field, $input)
+{
+
+    // bail early if value is already invalid
+    if (!$valid) return $valid;
+
+
+    // bail early if no 'exclude_words' setting
+    if (empty($field['exclude_words'])) return $valid;
+
+
+    // explode words
+    $words = explode(',', $field['exclude_words']);
+    $words = array_map('trim', $words); // trim white spaces
+    $words = array_values($words); // remove empty values
+
+
+    // loop
+    foreach ($words as $word) {
+
+        // check if word exists
+        if (stripos($value, $word) !== false) {
+            //jesli dane slowow istnoijee w tablicy(a nie powinno to wyseitl ostrzezeie)
+            $valid = sprintf(__('Value must not include "%s"'), $word);
+            break;
+
+        }
+
+    }
+
+
+    // return
+    return $valid;
+
+}
+
+//tworzenie wlasnych blokow Gutenberg
+
+//https://www.advancedcustomfields.com/resources/blocks/
+
+//uwaga nalezy stworzyc plik i dodac  do niego kod zgodny ze sciazka podana przy rejestracji bloku
+add_action('acf/init', 'my_acf_blocks_init');
+function my_acf_blocks_init()
+{
+
+    // Check function exists.
+    if (function_exists('acf_register_block_type')) {
+
+        // Register a testimonial block.
+        acf_register_block_type(array(
+            'name' => 'testimonial',
+            'title' => __('Testimonial'),
+            'description' => __('A custom testimonial block.'),
+            'render_template' => 'template-parts/blocks/testimonial/testimonial.php',
+            'category' => 'formatting',
+        ));
+    }
+}
+

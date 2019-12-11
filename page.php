@@ -302,6 +302,13 @@ get_header(); ?>
 
     the_field('text_option_footer_1', 'option');
 
+    //hooks actions and filters
+    //https://www.advancedcustomfields.com/resources/acf-save_post/
+
+    //do it after saving data
+
+
+
     echo '<pre>';
     print_r(get_field('post_objects'));
     echo '</pre>';
